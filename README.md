@@ -1,6 +1,6 @@
 # SURYA: Spatiotemporal Understanding of Recognition for Yoga Asanas  
 ### (Sun Salutation / Surya Namaskar Pose Recognition)
-> **Author:** Avirup Das (B2430041)  
+> **Author:** Avirup Das  
 
 A **multimodal spatiotemporal deep learning framework** to recognize **Surya Namaskar yoga poses** using **spatial + temporal understanding**, combining:
 
