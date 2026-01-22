@@ -1,5 +1,6 @@
 # SURYA: Spatiotemporal Understanding of Recognition for Yoga Asanas  
 ### (Sun Salutation / Surya Namaskar Pose Recognition)
+> **Author:** Avirup Das (B2430041)  
 
 A **multimodal spatiotemporal deep learning framework** to recognize **Surya Namaskar yoga poses** using **spatial + temporal understanding**, combining:
 
@@ -9,9 +10,7 @@ A **multimodal spatiotemporal deep learning framework** to recognize **Surya Nam
 - ✅ Temporal sequence modeling (**CNN+LSTM, 3D CNN, ViT**)
 - ✅ Viewpoint robustness via generative multi-view augmentation (**Zero123-Plus diffusion**)
 
-> 📌 Project based on report: *BDA Spatiotemporal Framework for Sun Salutation Pose Recognition*  
-> **Author:** Avirup Das (B2430041)  
-> Dept. of Computer Science, RKMVERI
+
 
 ---
 
@@ -71,7 +70,7 @@ Includes:
 ---
 
 ## 🗂️ Final Dataset Structure
-```bash
+
 flat_image_dataset_final/
 │── train/
 │── valid/
@@ -79,8 +78,7 @@ flat_image_dataset_final/
     ├── <pose_class_name>/
         ├── image_XXXX.jpg
         ├── image_XXXX.npy
----
-
+        
 ## ✅ Additional Generated Files
 
 During preprocessing and feature engineering, the following statistics files are generated:
